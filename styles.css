@@ -1,0 +1,29 @@
+:root {
+    --vermelho-principal: #ff0000;
+    --cinza-segundario: #C0C0C0;
+    --botão-white: #FFFFFF;
+    --cor-de-fundo: #000000;
+}
+body {
+    background: var(--cor-de-fundo);
+    color: var(--vermelho-principal);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container {
+    height:100vh;
+}
+.container_botao {
+    background-color: var(--botao-red);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
